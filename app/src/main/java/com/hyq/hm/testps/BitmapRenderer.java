@@ -21,14 +21,19 @@ public class BitmapRenderer {
             R.raw.color_xian_xing_jia_shen_fs,R.raw.color_xian_xing_jian_dan_fs,R.raw.color_die_jia_fs,
             R.raw.color_qiang_guang_fs,R.raw.color_rou_guang_fs,R.raw.color_liang_guang_fs,
             R.raw.color_dian_guang_fs,R.raw.color_xian_xing_guang_fs,R.raw.color_shi_se_hun_he_fs,
-            R.raw.color_pai_chu_fs,R.raw.color_cha_zhi_fs
+            R.raw.color_pai_chu_fs,R.raw.color_cha_zhi_fs,R.raw.color_hui_du_fs,
+            R.raw.color_hei_bai_fs,R.raw.color_fan_xiang_fs,R.raw.color_qu_se_fs,
+            R.raw.color_dan_se_fs,R.raw.color_huai_jiu_fs,R.raw.color_rong_zhu_fs,
+            R.raw.color_bing_dong_fs,R.raw.color_lian_huan_hua_fs,R.raw.color_he_se_fs
     };
 
     public static String[] names = {
             "变暗","变亮","正片叠底","滤色","颜色加深",
             "颜色减淡","线性加深","线性减淡","叠加","强光",
             "柔光","亮光","点光","线性光","实色混合",
-            "排除","差值"
+            "排除","差值","灰度","黑白","反向",
+            "去色","单色","怀旧","熔铸","冰冻",
+            "连环画","褐色"
     };
 
     private FloatBuffer vertexBuffer;
